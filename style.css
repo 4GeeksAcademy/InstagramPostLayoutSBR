@@ -1,0 +1,14 @@
+body{
+    background-color:black;
+}
+.divPadre{
+    width:700px;
+    height:700px;
+    margin:auto;
+    position: relative;
+    top: 45px;
+    background-color:white;
+}   
+.primeraCaja{
+    display:flex;
+}
