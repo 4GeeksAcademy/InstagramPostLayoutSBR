@@ -3,12 +3,105 @@ body{
 }
 .divPadre{
     width:700px;
-    height:700px;
+    height:950px;
     margin:auto;
     position: relative;
     top: 45px;
     background-color:white;
+    transform: scale(0.75); 
+
+    
 }   
-.primeraCaja{
-    display:flex;
+
+.Fondo{
+   display:flex;
+   align-items:center;
+ 
+   
 }
+.iconHtml5{
+display:flex;
+font-size: 40px;
+
+
+}
+
+
+.FirstIcon{
+    margin-left: 30px;
+    position:relative;
+   
+    
+    
+}
+.textTop{
+    margin-left: 10px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+    
+.HTML5{
+    position: relative;
+   top: 17px;
+}    
+
+
+
+.Rigoberto{
+position: relative;
+top: -20px;
+
+}
+
+.elipsis{
+    margin-left: auto;
+    font-size: 40px;
+    margin-right: 20px;
+
+}
+.imagen img{
+    object-position:top;
+    width: 100%;
+    height: 500px;
+
+}
+.icon-izq{
+display:flex;
+gap:6.5px;
+align-items: center;
+margin-left:25px;
+font-size:50px;
+margin-top:20px;
+
+}
+.derecha{
+    margin-left:auto;
+    margin-right:25px;
+}
+.textomegusta{
+   font-size:25px;
+    margin-left:25px;
+}
+.textofinal{
+    margin-left:25px;
+    font-size:25px;
+}
+
+    
+
+.like-button {
+    background: none;
+    border:none;
+   font-size:50px;
+    cursor: pointer;
+    color: #444;    
+    font-size:50px;
+}
+.corazon{
+    color:red;
+}
+    
+    
+  
